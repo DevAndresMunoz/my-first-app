@@ -1,11 +1,14 @@
 .post {
     width: 50%;
-    /* background-color: black; */
+    background-color: black;
+    color: white;
+    padding: 5px 0;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
+    margin: 15px;
 }
 
 .header-container img {
@@ -14,6 +17,15 @@
 
 .userInfo {
     display: flex;
+}
+
+.userInfo h3, h4 {
+    margin: 15px 0 10px 15px;
+}
+
+.header-container i {
+    margin: 20px 10px;
+    font-size: 1.8rem;
 }
 
 div.image-container {
@@ -34,4 +46,15 @@ div.image-container {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 4rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.footer-icons {
+    font-size: 1.8rem;
+    margin: 5px 20px 0 20px
 }
